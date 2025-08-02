@@ -18,4 +18,12 @@ video {
     height: auto;
     border: 2px solid white;
     border-radius: 20px;
+
+}
+
+h1 {
+    font-family: tahoma;
+    font-size: 18px;
+    color: white;
+    
 }
