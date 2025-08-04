@@ -3,17 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login</title>
+    <title>Welcome Idiots!</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="lc">
-        <h1>Login</h1>
-        <form action="vid.html">
-                <input type="text" placeholder="Username" minlength="4" maxlength="12" required>
-                <input type="password" placeholder="Password" minlength="4" maxlength="12" required>
-                <button type="submit">Login</button>
-        </form>
+    <h1>Welcome Idiots!</h1>
+    <p>please click on this button below</p>
+    <p>|</p>
+    <p>|</p>
+    <p>|</p>
+    <p>\/</p>
+
+    <p id="bal">If you click on this button you will get a reward! Isn't it amazing?</p>
+    <div class="container">
+        <button onclick="doSomething()">Click here</button>
     </div>
+    <script>
+        function doSomething(){
+            document.getElementById("bal").innerHTML = "Told ya! You are an Idiot!";
+        }
+    </script>
 </body>
 </html>
